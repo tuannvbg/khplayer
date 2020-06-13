@@ -1,7 +1,7 @@
 <img src="./dist/default_wating.svg" width="100%" height="auto">
 
 ## **Mục đích chính**
-Generate được một playlist player [như thế này](https://khplayer.delnegend.xyz/demo/) mà không động đến CSS, JS
+Generate được một playlist player [như thế này](https://tuannvbg.github.io/khplayer/demo/) mà không động đến CSS, JS
 
 <img src='./README_Data/Annotation 2020-06-05 003744.png'>
 
@@ -62,7 +62,7 @@ Generate được một playlist player [như thế này](https://khplayer.delne
   Bao gồm các file ảnh (hoặc ghép hết vào thành 1 - gọi là sprite thumbnail) và 1 file .vtt (hoạt động tương tự như file phụ đề). Ở đây mình sẽ hướng dẫn tạo sprite thumbnail (1 file chứa toàn bộ ảnh) và 1 file .vtt:
 
   - Cài [NodeJS](https://nodejs.org/), [ffmpeg](https://ffmpeg.org/download.html).
-  - [Điền form này](https://khplayer.delnegend.xyz/genSpriteThumbCode/), copy câu lệnh phần `Generate jpg` (ô `Link direct ảnh` không cần điền).
+  - [Điền form này](https://tuannvbg.github.io/khplayer/genSpriteThumbCode/), copy câu lệnh phần `Generate jpg` (ô `Link direct ảnh` không cần điền).
   - Mở powershell/terminal lên, `cd` đến thư mục chứa file video và paste câu lệnh vừa copy vào.
   - Sau khi được file .jpg, upload lên cloud (không dùng OneDrive), lấy link direct rồi paste vào `Link direct ảnh` trong form vừa rồi.
   - [Clone/download repo này](https://github.com/radiantmediaplayer/rmp-create-vtt-thumbnails), quay lại powershell/terminal và `cd` vào thư mục repo đó, copy câu lệnh phần `Generate vtt` trong form, paste vào và Enter.
@@ -79,14 +79,14 @@ Generate được một playlist player [như thế này](https://khplayer.delne
 
   Convert từ .srt hay .ass sang .vtt trên Google không thiếu. Tuy nhiên nếu muốn chắc chắn 100% file vtt được convert đúng cách hãy sử dụng trang [quuz.org/webvtt/](https://quuz.org/webvtt/).
 
-  Trong trường hợp quuz.org không còn truy cập được: [khplayer.delnegend.xyz/VTT_validation/](https://khplayer.delnegend.xyz/VTT_Validation/)
+  Trong trường hợp quuz.org không còn truy cập được: [https://tuannvbg.github.io/khplayer/VTT_validation/](https://khplayer.delnegend.xyz/VTT_Validation/)
 
   Tương tự như file .vtt của phần preview thumbnail, khi upload lên cloud cũng cần lưu ý tới [CORS](https://topdev.vn/blog/cors-la-gi/).
 
 <hr width='50%''>
 
 ### C. Build lên thành player
-  - Điền form [khplayer.delnegend.xyz](https://khplayer.delnegend.xyz).<br>
+  - Điền form [https://tuannvbg.github.io/khplayer](https://tuannvbg.github.io/khplayer).<br>
   Lưu ý: khi nhập các ô `Nguồn...` mà ở dạng relative `./` hay `../`, là relative đối với file index.html<br>
   Sau khi ấn "Hoàn thành" sẽ hiện ra 2 button:
   - #### Nếu trên webpage chưa có cái đoạn `<script>` như bước thứ 3, nhấn "Tạo mới":
